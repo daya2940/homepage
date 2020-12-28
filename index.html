@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+      <div class="navbar-content">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets//logo.png" alt=""
+        /></a>
+        <div class="ml-auto">
+          <img src="assets/login.png" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto sidenav" id="navAccordion">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              ><img src="./assets/home.png" class="icon-distance" />HOME
+              <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><img src="./assets/book.png" class="icon-distance" />STUDY
+              MATERIAL</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link nav-link-collapse"
+              href="#"
+              id="hasSubItems"
+              data-toggle="collapse"
+              data-target="#collapseSubItems2"
+              aria-controls="collapseSubItems2"
+              aria-expanded="false"
+              ><img src="./assets/blog.png" class="icon-distance" />BLOG</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><img
+                src="./assets/feedback.png"
+                class="icon-distance"
+              />FEEDBACK</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link nav-link-collapse"
+              href="#"
+              id="hasSubItems"
+              data-toggle="collapse"
+              data-target="#collapseSubItems4"
+              aria-controls="collapseSubItems4"
+              aria-expanded="false"
+              ><img src="./assets/faq.png" class="icon-distance" />FAQ</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link nav-link-collapse"
+              href="#"
+              id="hasSubItems"
+              data-toggle="collapse"
+              data-target="#collapseSubItems4"
+              aria-controls="collapseSubItems4"
+              aria-expanded="false"
+              ><img src="./assets/help.png" class="icon-distance" /> HELP AND
+              SUPPORT</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="content-wrapper">
+      <h1 class="mainContentHeader">Study Material</h1>
+      <div class="container-fluid mainContent">
+        <div>
+          <div>
+            <button class="btn btn-md">Request Material</button>
+            <button class="btn btn-md studyMaterialButtonDistance">
+              Past Material
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2 class="mainContentHeader">Issued material -</h2>
+        <div class="card mainContent">
+          <div class="row">
+            <div class="col-sm-12 col-lg-4">
+              <h4  class="subjectName">Physics</h4>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/nuclear.png" class="card-img-top centerElement" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><span>Chapter: </span>Electrostatics</h5>
+                  <p class="card-text"><span>Material:</span>Theory</p>
+                  <div>
+                    <a href="#" class="btn btn-primary">View</a>
+                    <a href="#" class="btn btn-primary">Download</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;margin-top: 30px;">
+                <img src="./assets/nuclear.png" class="card-img-top centerElement" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chapter: </span>Semiconductor</h5>
+                  <p class="card-text">Material:</span>Theory</p>
+                  <div>
+                    <a href="#" class="btn btn-primary">View</a>
+                    <a href="#" class="btn btn-primary">Download</a>
+                  </div>                
+                </div>
+              </div>
+            </div>
+            <div class=" col-sm-12  col-lg-4">
+              <h2  class="subjectName">Chemistry</h2>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/nuclear.png" class="card-img-top centerElement" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><span>Chapter: </span>Magnetism</h5>
+                  <p class="card-text">Material:</span>Theory</p>
+                  <div>
+                    <a href="#" class="btn btn-primary">View</a>
+                    <a href="#" class="btn btn-primary">Download</a>
+                  </div>                
+                </div>
+              </div>
+            </div>
+            <div class=" col-sm-12 col-lg-4">
+              <h2 class="subjectName">Maths</h2>
+              <div class="card" style="width: 18rem;">
+                <img src="./assets/nuclear.png" class="card-img-top centerElement" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><span>Chapter: </span>Formula</h5>
+                  <p class="card-text">Material:</span>Theory</p>
+                  <div>
+                    <a href="#" class="btn btn-primary">View</a>
+                    <a href="#" class="btn btn-primary">Download</a>
+                  </div>             
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto sidenav" id="navAccordion">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              ><img src="./assets/home.png" class="icon-distance" />HOME
+              <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" onclick="display()"
+              ><img src="./assets/book.png" class="icon-distance" />STUDY
+              MATERIAL</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link nav-link-collapse"
+              href="#"
+              id="hasSubItems"
+              data-toggle="collapse"
+              data-target="#collapseSubItems2"
+              aria-controls="collapseSubItems2"
+              aria-expanded="false"
+              ><img src="./assets/blog.png" class="icon-distance" />BLOG</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><img
+                src="./assets/feedback.png"
+                class="icon-distance"
+              />FEEDBACK</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link nav-link-collapse"
+              href="#"
+              id="hasSubItems"
+              data-toggle="collapse"
+              data-target="#collapseSubItems4"
+              aria-controls="collapseSubItems4"
+              aria-expanded="false"
+              ><img src="./assets/faq.png" class="icon-distance" />FAQ</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link nav-link-collapse"
+              href="#"
+              id="hasSubItems"
+              data-toggle="collapse"
+              data-target="#collapseSubItems4"
+              aria-controls="collapseSubItems4"
+              aria-expanded="false"
+              ><img src="./assets/help.png" class="icon-distance" /> HELP AND
+              SUPPORT</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="rightPanel">
+        <p style="text-align: center;" class="mentor-title">Your Mentor</p>
+        <div stylr="border-radius:30px;">
+          <img src="./assets/mentor.png" class="mentor-img" />
+        </div>
+        <div style="margin-left: 80px;">
+          <p><span class="rightPanelTitle ">Name: </span>loreuim ipsum</p>
+          <p><span class="rightPanelTitle ">Email </span> loreiumipsum@gmail.com</p>
+          <p><span class="rightPanelTitle ">Phone </span>9432567897</p>
+        </div>
+        <button class="rightPanelContentButton btn btn-md">Call mentor</button>
+      </div>
+    </main>
+    <script src="./js/navbar.js"></script>
+  </body>
+</html>

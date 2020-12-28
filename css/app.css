@@ -1,0 +1,222 @@
+html {
+  position: relative;
+  min-height: 100%;
+  background: whitesmoke;
+}
+
+body {
+  font-family: Roboto;
+  background: whitesmoke;
+}
+
+/* .firstCard {
+  background: white;
+} */
+
+.nav-link:hover {
+  transition: all 0.4s;
+}
+
+.nav-link-collapse:after {
+  float: right;
+  /* content: "\f067";
+  font-family: "FontAwesome"; */
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+.nav-link-show:after {
+  float: right;
+  content: "\f068";
+  font-family: "FontAwesome";
+  background-color: black;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-nav > li > a {
+  line-height: 60px;
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.studyMaterialButton {
+  margin-left: 75px;
+  margin-top: 56px;
+}
+
+card {
+  margin: 0 auto;
+  box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+  border-radius: 40px;
+}
+
+.card-text {
+  margin-left: 40px;
+}
+
+.card-title {
+  margin-left: 40px;
+}
+
+div a {
+  margin-left: 15px;
+}
+
+button:hover {
+  background: #09206f;
+}
+
+.navbar-toggler {
+  width: 40px;
+  height: 40px;
+}
+
+.centerElement {
+  display: flex;
+  margin: 0 auto;
+}
+
+.subjectName {
+  margin-left: 58px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.subjectName:hover {
+  background: #09206f;
+  color: #f0f3f8;
+}
+
+.navbar {
+  position: relative;
+  min-height: 80px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  background: #f0f3f8;
+  border-radius: 0px;
+  box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+}
+
+.mainContentHeader {
+  margin-left: 24vw;
+  font-weight: 500;
+  color: #09206f;
+}
+
+.icon-distance {
+  margin-right: 20px;
+}
+
+.mentor-img {
+  width: 200px;
+  display: flex;
+  margin: 0 auto;
+  border-radius: 100%;
+  border: none;
+}
+
+.rightPanelContentButton {
+  display: flex;
+  margin: 0 auto;
+  background: #09206f;
+  color: white;
+  border-radius: 20px;
+}
+
+.rightPanelTitle {
+  font-weight: 600;
+}
+
+.mentor-title {
+  background: #09206f;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 30px 30px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    position: relative;
+    min-height: 80px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    background: #f0f3f8;
+    border-radius: 0px;
+    box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2), -8px -8px 18px 0 #f0f3f8;
+    color: black;
+  }
+  .mentor-title {
+    margin-top: 30px;
+  }
+
+  .navbar-nav > li > a {
+    color: black;
+  }
+
+  .icon-distance {
+    background: black;
+  }
+}
+
+@media (min-width: 992px) {
+  .sidenav {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    width: 291px;
+    height: calc(100vh - 3.5rem);
+    margin-top: 7.9rem;
+    background: #09206f;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .navbar-expand-lg .sidenav {
+    flex-direction: column;
+  }
+
+  .studyMaterialButtonDistance {
+    margin-left: 10vw;
+  }
+
+  @media (min-width: 768px) {
+    .navbar-nav > li {
+      float: none;
+      font-size: 20px;
+    }
+  }
+
+  .rightPanel {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 350px;
+    height: calc(100vh - 3.5rem);
+    margin-top: 7.9rem;
+    background: white;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+  }
+}
